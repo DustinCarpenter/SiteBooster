@@ -70,8 +70,73 @@ textarea {
 
 
 
+/* ==========================================================================
+   Pluggin Styles
+   ========================================================================== */
 
+.modal {
+    font-size: 12px;
+    display: none;
+    position: absolute;
+    margin: auto;
+    width: 380px;
+    background: #fff;
+    padding: 15px;
+}
 
+.modal a.close-modal {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background: url(../img/close.png) no-repeat 0 0;
+}
+
+.modal-spinner {
+    display: none;
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-right: -32px;
+    margin-top: -32px;
+    background: url(../img/spinner.gif) #111 no-repeat center center;
+}
+
+.modal h3 {
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.modal p {
+    margin-left: 15px;
+    margin-top: 2px;
+}
+
+.placeholder {
+    color:#ccc;
+    text-transform: uppercase;
+}
+
+::-webkit-input-placeholder {
+    color: #ccc;
+    text-transform: uppercase;
+}
+
+:-moz-placeholder {  
+    color: #ccc;
+    text-transform: uppercase;
+}
+
+:-ms-input-placeholder {
+    color: #ccc;
+    text-transform: uppercase;
+}
 
 
 /* ==========================================================================
